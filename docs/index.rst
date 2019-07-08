@@ -4,7 +4,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Documentation for the fnss-ns3 Matrix Topology example
+Using the emulator
 ======================================================
 
 .. toctree::
