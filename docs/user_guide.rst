@@ -18,7 +18,7 @@ File `Script to install Docker CE on Ubuntu`_, which presents what the docker in
 .. _Script to install Docker CE on Ubuntu: https://github.com/GRIDAPPSD/gridappsd-docker/blob/master/docker_install_ubuntu.sh
 .. _Docker installation: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
-.. code::
+.. code:: python
   #!/bin/bash
 
   # Environment variables you need to set so you don't have to edit the script below.
@@ -65,7 +65,7 @@ File `Script to install Docker CE on Ubuntu`_, which presents what the docker in
 
 The script also installs Docker Composer, used to define and run a multi-container Docker application. See [Compose overview](https://docs.docker.com/compose/overview/).
 
-**Warning.**__** To be able to run the Docker CLI without needing root, you need a reboot.
+**Warning.** To be able to run the Docker CLI without needing root, you need a reboot.
 
 
 REST API
