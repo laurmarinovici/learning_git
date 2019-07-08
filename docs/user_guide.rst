@@ -10,4 +10,4 @@ REST API
 ========
 
 .. _JModelica: https://jmodelica.org
-   _`Docker desktop`: https://www.docker.com/products/docker-desktop
+.. _`Docker desktop`: https://www.docker.com/products/docker-desktop
