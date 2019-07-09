@@ -1,26 +1,26 @@
 Documentation for the code
 **************************
 
-.. automodule:: fnss_ns3_MatrixTopoEx
+.. automodule:: learning_git
    :members:
 
 The main function
 =================
-.. automodule:: fnss_ns3_MatrixTopoEx.main
+.. automodule:: learning_git.main
    :members:
    :undoc-members:
    :show-inheritance:
 
 FNSS topology - build and visualize
 ===================================
-.. automodule:: fnss_ns3_MatrixTopoEx.fnssTopology
+.. automodule:: learning_git.fnssTopology
    :members:
    :undoc-members:
    :show-inheritance:
 
 ns-3 model - build
 ==========================
-.. automodule:: fnss_ns3_MatrixTopoEx.ns3Model
+.. automodule:: learning_git.ns3Model
    :members:
    :undoc-members:
    :show-inheritance:
