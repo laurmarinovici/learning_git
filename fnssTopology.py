@@ -7,13 +7,16 @@
 .. moduleauthor:: Laurentiu Marinovici
 '''
 # create topology and schedule using FNSS
-import fnss
-from fnss.util import geographical_distance
-import networkx as nx
-import matplotlib.pyplot as plt
-from colorama import *
-import random
-import pprint
+try:
+  import fnss
+  from fnss.util import geographical_distance
+  import networkx as nx
+  import matplotlib.pyplot as plt
+  from colorama import *
+  import random
+  import pprint
+except ImportError:
+    pass
 pp = pprint.PrettyPrinter(indent = 2)
 
 def buildFNSStopology():

@@ -7,8 +7,8 @@
 .. moduleauthor:: Laurentiu Marinovici
 '''
 import random
-import numpy as np
 try:
+  import numpy as np
   import ns.core
   import ns.applications
   import ns.internet
