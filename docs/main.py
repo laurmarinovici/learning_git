@@ -1,5 +1,5 @@
-'''
-.. module:: fnss_ns3_MatrixTopoEx
+"""
+.. module:: learning_git
 
 :platform: Unix, Windows
 :synopsis: Call functions to build, visualize, and run the model.
@@ -15,7 +15,7 @@
 .. seealso:: see this as well
 
 .. moduleauthor:: Laurentiu Marinovici
-'''
+"""
 
 __license__ = "BSD"
 __revision__ = " $Id: $ "

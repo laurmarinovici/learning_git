@@ -1,7 +1,7 @@
 Documentation for the code
 **************************
 
-.. automodule:: fnss_ns3_MatrixTopoEx
+.. automodule:: learning_git
    :members:
 
 The main function
