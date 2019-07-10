@@ -1,26 +1,23 @@
 Documentation for the code
 **************************
 
-.. automodule:: mainFile
-   :members:
-
 The main function
 =================
-.. automodule:: fnss_ns3_MatrixTopoEx.main
+.. automodule:: mainFile
    :members:
    :undoc-members:
    :show-inheritance:
 
 FNSS topology - build and visualize
 ===================================
-.. automodule:: fnss_ns3_MatrixTopoEx.fnssTopology
+.. automodule:: fnssTopology
    :members:
    :undoc-members:
    :show-inheritance:
 
 ns-3 model - build
 ==========================
-.. automodule:: fnss_ns3_MatrixTopoEx.ns3Model
+.. automodule:: ns3Model
    :members:
    :undoc-members:
    :show-inheritance:
