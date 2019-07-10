@@ -1,7 +1,7 @@
 Documentation for the code
 **************************
 
-.. automodule:: learning_git
+.. automodule:: main
    :members:
 
 The main function

@@ -1,5 +1,5 @@
 """
-.. module:: learning_git
+.. module:: main
 
 :platform: Unix, Windows
 :synopsis: Call functions to build, visualize, and run the model.
