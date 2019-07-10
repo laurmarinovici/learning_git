@@ -17,7 +17,6 @@ try:
   import pprint
 except ImportError:
     pass
-pp = pprint.PrettyPrinter(indent = 2)
 
 def buildFNSStopology():
   '''
@@ -57,6 +56,7 @@ def buildFNSStopology():
   .. note:: The function does assign applications and event schedules, but they are not used subsequently. At least not at this point.
 
   '''
+  pp = pprint.PrettyPrinter(indent = 2)
   #G = nx.DiGraph()
   nodeCoord = dict()
   distanceUnit = 'Km'
