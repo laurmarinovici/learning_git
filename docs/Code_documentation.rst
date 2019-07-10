@@ -1,7 +1,7 @@
 Documentation for the code
 **************************
 
-.. automodule:: main
+.. automodule:: mainFile
    :members:
 
 The main function
