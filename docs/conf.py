@@ -63,7 +63,16 @@ pygments_style = 'sphinx'
 # html_theme = 'alabaster'
 # html_theme = 'sphinx_rtd_theme'
 # html_theme = 'bizstyle'
-html_theme = 'pyramid'
+# html_theme = 'pyramid'
+# html_theme = 'latest'
+# html_theme = 'classic'
+html_theme = 'sphinxdoc'
+# html_theme = 'scrolls'
+# html_theme = 'agogo'
+# html_theme = 'traditional'
+# html_theme = 'nature'
+# html_theme = 'haiku'
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
