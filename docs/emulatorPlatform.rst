@@ -1,12 +1,12 @@
-Emulator platform
-*****************
+Building Control Emulator platform
+**********************************
 The building emulator is given as a Functional Mock-up Unit (FMU) and simulated using `JModelica`_. JModelica, as the tool to simulate and analyze the building emulator behavior, has been packaged on a Ubuntu 16.04.5 LTS machine in a Docker container. Hence, in order to download, access and run the JModelica-specialized container, Docker needs to be installed on the host machine.
 
 .. _JModelica: https://jmodelica.org
 
 Docker Container
 ================
-For Windows 10 and Mac OS, there are specific versions of `Docker desktop`_, that is `Docker desktop for Windows`_, and `Docker desktop for Mac`_. On Ubuntu (Linux), installing Docker is less straight, and the procedure coudl follow the details below.
+For Windows 10 and Mac OS, there are specific versions of `Docker desktop`_, that is `Docker desktop for Windows`_, and `Docker desktop for Mac`_. On Ubuntu (Linux), installing Docker is less straight forward, and the procedure coudl follow the details below.
 
 .. _`Docker desktop`: https://www.docker.com/products/docker-desktop
 .. _`Docker desktop for Windows`: https://hub.docker.com/editions/community/docker-ce-desktop-windows
@@ -69,42 +69,3 @@ The script also installs Docker Composer, used to define and run a multi-contain
 .. _Compose overview: https://docs.docker.com/compose/overview/
 
 **Warning.** To be able to run the Docker CLI without needing root, you need a reboot.
-
-Getting the JModelica emulator docker image
--------------------------------------------
-
-**Note.** The following procedures are related to Mac OS and Ubuntu.
-
-Once Docker desktop is installed on the host computer, to get access to the JModelica container, one could follow the steps below. Details on the Docker commands can be found on the `Docker documentation`_ page.
-.. _Docker documentation: https://docs.docker.com
-
-1. Open a terminal window.
-
-2. At the terminal prompt type
-.. code::
-
-  docker pull <..... I NEED A DOCKER HUB LINK ......>
-
-The docker image will be downloaded on the host computer.
-
-3. To inspect the Docker images downloaded type
-.. code::
-
-  docker images
-
-4. To instantiate the Docker container, run
-.. code::
-
-  docker run -it --rm -p="127.0.0.1:5000:5000" \
-           --mount type=bind,source=<path to host computer folder to bind with container folder>,destination=<path to folder in the container binded to host folder> \
-           --network=host --name=<container name> <image name> bash
-
-5. Once the container has been created, it should show up listed when running
-.. code::
-
-  docker ps -a
-
-Inside the JModelica Docker container
--------------------------------------
-
-
